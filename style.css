@@ -21,7 +21,7 @@
     background-image: url(images/bgldsc.png);
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(38, 155, 48);
+    color: #fff;
   }
   /*.extrabg{
       position: fixed;
@@ -210,12 +210,13 @@ section{
 
 @media screen and (max-width: 600px) {
     .title {
-        display: flex;
-        flex-direction: column;
         white-space: nowrap;
         animation: slide 7s linear infinite;
     }
-   /* @keyframes slide {
+    .box{
+        overflow: hidden;
+    }
+    @keyframes slide {
         0% {
            transform: translateX(100%); 
         }
@@ -223,10 +224,7 @@ section{
             transform: translateX(-180%); 
          }
         
-    }*/
-    body{
-        background-color: red;
-      }
+    }
 }
 
 @media screen and (max-width: 900px) {
