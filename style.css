@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #2e2a68;
+    background-image: url(images/bgldsc.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  /*.extrabg{
+      position: fixed;
+      z-index: -10;
+      height: 100vh;
+      width: 100vw;
+    background: linear-gradient(to top, crimson, rgba(78,71,173,1));
+  }*/
+
+  .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 75px;
+      min-width: 75px;
+      background: #221F4C;
+      padding: 6px 14px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+      z-index: 10;
+  }
+
+  .sidebar .logo_content .logo{
+      color: #fff;
+      display: flex;
+      height: 50px;
+      width: 100%;
+      align-items: center;
+  }
+
+  .logo_content .logo i{
+      font-size: 28px;
+      margin-right: 5px;
+  }
+
+  .logo_content .logo_name{
+      font-size: 20px;
+      font-weight: 400;
+      white-space: nowrap;
+  }
+  .sidebar .logo_content .logo{
+    opacity: 0;
+}
+
+  .sidebar.active .logo_content .logo{
+      opacity: 1;
+  }
+
+  .logo_content .logo i{
+    font-size: 28px;
+    margin-right: 5px;
+} 
+
+  .sidebar.active{
+    width: 15%;
+    min-width: 200px;
+}
+
+.sidebar.active{
+    width: 20%;
+    min-width: 200px;
+}
+
+  .sidebar #btn {
+      position: absolute;
+      color: #fff;
+      left: 45%;
+      top: 6px;
+      font-size: 20px;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      line-height: 50px;
+      transform: translateX(-40%);
+  }
+  .sidebar.active #btn{
+    left: 90%;
+    transform: translateX(-50%);
+  }
+
+  .sidebar ul{
+      margin-top: 20px;
+  }
+  
+  .sidebar ul li {
+      position: relative;
+      height: 50px;
+      width: 100%;
+      margin: 0 5px;
+      list-style: none;
+      line-height: 50px;
+  }
+
+  .sidebar ul li a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+
+.sidebar ul li a:hover{
+    color: #221F4C;
+    background-color: #fff;
+}
+
+.sidebar ul li a:hover{
+    padding-left: 5px;
+}
+
+.sidebar.active ul li a:hover{
+    padding-left: 10px;
+}
+
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 40px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sidebar span{
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 0.3s ease;
+}
+.sidebar.active span{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* ////////////////////////  Page Accueil //////////////////////////////////////*/
+section{
+    height: 100vh;
+    width: 100vw;
+}
+/* Titre + Image en float row*/
+
+.hero {
+    /*background-color: lightblue;*/
+    margin-top: 10%;
+    width: calc(100% - 75px);
+    padding-left: calc(8% + 75px);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    /*background-color: lightsalmon;*/
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* detail titre + image */
+
+.title {
+    font-size: 5rem;
+    line-height: 75px;
+    color: #fff;
+}
+
+
+.imgCentered {
+    /*background-color: lightgreen;*/
+    height: 50vh;
+    width: 55vh;
+    /*margin-left: calc((100% - 50vh + 70px)/2);*/
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+    .title{
+        animation: slide 7s linear infinite;
+    }
+    @keyframes slide {
+        0% {
+           transform: translateX(-75%); 
+        }
+         100% {
+            transform: translateX(75%); 
+         }
+        
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        white-space: nowrap;
+    }
+}
+
