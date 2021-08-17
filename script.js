@@ -7,3 +7,14 @@ function toggleSideBar(){
     console.log("oui");
     sidebar.classList.toggle("active");
 }
+
+window.onload = init;
+
+function init(){
+    document.getElementById("load").scrollIntoView();
+    setTimeout(removeLoad, 3000);
+}
+
+function removeLoad(){
+    document.getElementById("load").style.display = "none";
+}
