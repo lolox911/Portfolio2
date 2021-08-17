@@ -29,6 +29,25 @@
     margin: 2% auto;
     width: 80%;
 }
+.about-con2{
+    width: 95%;
+    margin: 2.5% 2.5%;
+}
+.box-about2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.hobbie{
+    background-color: #221F4C;
+    width: 40%;
+    text-align: center;
+}
+.education{
+    background-color: #221F4C;
+    width: 57.5%;
+    text-align: center;
+}
 
 /* --------------------------------- PHONE VERSION --------------------------------- */
 
