@@ -49,6 +49,188 @@
     text-align: center;
 }
 
+.box-about2 h1{
+    padding: 2.5% 0;
+    background-color: #191738;
+}
+.education h1{
+    padding: 2% 0;
+}
+
+.hobbie, .education{
+    padding-bottom: 2.5%;
+}
+
+.box-about2 ul{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+.box-about2 li{
+    margin-top: 2.5%;
+}
+.box-about2 hr{
+    width: 90%;
+    margin: 2.5% auto;
+}
+.box-about2 span{
+    color: rgb(179, 179, 179);
+}
+.frst-title{
+    margin-top: 2.5%;
+}
+.job{
+    margin-top: 2.5%;
+}
+.june{
+    margin-top: 2.5%; 
+}
+.hob{
+    margin-top: 2.5%;
+}
+/* -------------------- SECTION 3 ------------------- */
+.sec-3{
+    margin-top: 20%;
+    margin-left: 75px;
+}
+.skills{
+    width: 95%;
+    margin: 0 2.5%;
+    background-color: #221F4C;
+}
+.skills h1{
+    padding: 2.5% 0;
+    background-color: #191738;
+    text-align: center;
+}
+.c, .cs , .java, .html, .css, .js, .sql, .php, .codei, .spine {
+    display: flex;
+    position: relative;
+}
+/* ----- ICONES ------ */
+.ico{
+    width: 50px;
+    height: 50px;
+    margin-right: 2%;
+}
+/*-------- */
+.prog, .web, .frame, .data, .anim{
+    width: 50%;
+    padding: 0 2%;
+}
+.box1, .box2, .box3{
+    display: flex;
+    flex-direction: row;
+}
+.skills h2{
+    padding: 2% 0;
+    margin-bottom: 2.5%;
+}
+.skills p{
+    font-size: 1.1rem;
+}
+.comp{
+    margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: row;
+}
+/* pour les test placements */
+/*.box1{
+    background-color: lightgreen;
+}
+.box2{
+    background-color: rgb(170, 71, 149);
+}
+.box3{
+    background-color: rgb(151, 128, 26);
+}
+.prog, .web, .frame, .data, .anim{
+    background-color: crimson;
+    border: solid 1px black;
+}*/
+.titreskill{
+    margin: auto 0;
+    width: 10%;
+}
+.bar{
+    width: 80%;
+    height: 10px;
+    background-color: #191738;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.bar1.c{
+    height: 10px;
+    width: 60%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    /*transform: scaleX(0);
+    transform-origin: left;
+    animation: bar 1s cubic-bezier(1,0,0.5,1) forwards;*/
+}
+.bar1.cs{
+    height: 10px;
+    width: 40%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.java{
+    height: 10px;
+    width: 60%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.html{
+    height: 10px;
+    width: 90%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.css{
+    height: 10px;
+    width: 75%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.js{
+    height: 10px;
+    width: 50%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.php{
+    height: 10px;
+    width: 50%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.ci{
+    height: 10px;
+    width: 80%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.sql{
+    height: 10px;
+    width: 60%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.spine{
+    height: 10px;
+    width: 5%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.head-bar1{
+    position: relative;
+    width: 30%;
+    display: flex;
+}
+.head-bar2{
+    position: relative;
+    width: 70%;
+}
 /* --------------------------------- PHONE VERSION --------------------------------- */
 
 @media screen and (max-width: 600px) {
@@ -70,6 +252,58 @@
         text-align: justify;
         margin: 5% auto;
         width: 80%;
+    }
+
+    .box-about2{
+        flex-direction: column; 
+    }
+    .hobbie{
+        width: 100%;
+        text-align: center;
+    }
+    .education{
+        margin-top: 2.5%;
+        width: 100%;
+    }
+    .education h3, .education p{
+        margin: 2.5% auto;
+        width: 80%;
+        text-align: left;
+    }
+
+    /* ------ SECTION 3 -------- */
+    
+    .box1, .box2, .box3{
+        flex-direction: column;
+    }
+    .prog, .web, .frame, .data, .anim{
+        width: 100%;
+        padding: 0 2.5%;
+    }
+
+    .ico{
+        width: 35px;
+        height: 35px;
+    }
+    .bar{
+        position: absolute;
+        margin: 10px;
+        right: 2.5%;
+    }
+    .percent{
+        width: 15%;
+        margin: auto;
+        text-align: center;
+    }
+    .comp{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .head-bar1{
+        margin: auto;
+    }
+    .head-bar2{
+        margin: auto;
     }
 }
 

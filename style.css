@@ -20,7 +20,21 @@
     height: 100%;
     background-color: lightblue;
     animation: load 5s ease-out forwards;
+    justify-content: center;
   }
+  .background .box-knight{
+      height: 100%;
+      vertical-align: middle;
+      justify-content: center;
+      text-align: center;
+      padding-top: 45%;
+  }
+  .background .knight-container{
+    height: 100%;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+}
   @keyframes load {
       0%{
           opacity: 1;
@@ -290,7 +304,20 @@
         opacity: 0;
     }
 }
-
+@keyframes knight {
+    0%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 0; 
+    }
+    66%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 @keyframes knight {
     0%{
         transform: translateX(0%); 
@@ -309,7 +336,9 @@
 
 @media screen and (min-width: 700px) {
     .knight div{
+        animation: apear 3s forwards;
         animation: knight 3s linear infinite;
+        animation: name duration timing-function delay iteration-count direction fill-mode;
     }
 }
 
