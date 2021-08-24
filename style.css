@@ -22,6 +22,11 @@
     animation: load 5s ease-out forwards;
     justify-content: center;
   }
+  .background h1{
+      color: black;
+      position: absolute;
+      top: 0;
+  }
   .background .box-knight{
       height: 100%;
       vertical-align: middle;
@@ -78,6 +83,7 @@
       overflow: hidden;
       transition: all 0.4s ease;
       z-index: 10;
+      white-space: nowrap;
   }
 
   .sidebar .logo_content .logo{
@@ -258,8 +264,10 @@
 }
 .knight-container{
     margin: auto;
-    width: 30%;
     min-width: 128px;
+}
+.knight{
+    margin: 0 auto;
 }
 .explore-container{
     margin-top: 10%;
@@ -304,7 +312,7 @@
         opacity: 0;
     }
 }
-@keyframes knight {
+@keyframes apear {
     0%{
         opacity: 0;
     }
@@ -318,7 +326,7 @@
         opacity: 1;
     }
 }
-@keyframes knight {
+/*@keyframes knight {
     0%{
         transform: translateX(0%); 
     }
@@ -331,14 +339,13 @@
     100%{
         transform: translateX(0%);
     }
-}
+}*/
 /* ------------------------------------------------ */
 
 @media screen and (min-width: 700px) {
     .knight div{
         animation: apear 3s forwards;
         animation: knight 3s linear infinite;
-        animation: name duration timing-function delay iteration-count direction fill-mode;
     }
 }
 
