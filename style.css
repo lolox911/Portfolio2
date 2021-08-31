@@ -254,6 +254,7 @@
     /*background-color: lightsalmon;*/
     font-weight: bold;
     text-align: center;
+    position: relative;
 }
 
 /* detail titre */
@@ -265,6 +266,7 @@
     color: #fff;
 }
 .title2{
+    margin-left: 75px;
     font-size: 5rem;
     line-height: 75px;
     color: #fff;
@@ -273,6 +275,8 @@
 }
 .wel{
     margin-left: 75px;
+    margin-top: 5%;
+    text-align: center;
 }
 .box-knight{
     margin-top: 5%;
@@ -373,20 +377,25 @@
 
 @media screen and (max-width: 600px) {
     .title1 {
-        margin-left: 0;
-        position: relative;
+        transform: translateX(100%);
+        position: absolute;
         animation: slide1 8s linear infinite;
+        font-size: 60px;
+        line-height: inherit;
     }
     .title2{
         display:block;
-        position: relative;
-        bottom: 4.7rem;
+        position: absolute;
+       /* bottom: 4.7rem;*/
         animation: slide2 8s linear infinite;
         transform: translateX(100%);
         animation-delay: 4s;
         color: #221f4c;
+        font-size: 60px;
+        line-height: inherit;
     }
     .box{
+        height: 80px;
         overflow: hidden;
     }
     .explore-container{
@@ -395,6 +404,11 @@
     .load1{
         display: block;
     }
+    .background{
+        /*background-color: rgb(0, 0, 0);*/
+        background: url(images/Comic2.png);
+        background-size: cover;
+      }
 
 /* ----------------------- ANIMATIONS -------------------------------- */
 
@@ -403,7 +417,7 @@
            transform: translateX(100%); 
         }
          100% {
-            transform: translateX(-240%); 
+            transform: translateX(-100%); 
          }
         
     }
@@ -412,7 +426,7 @@
            transform: translateX(100%); 
         }
          100% {
-            transform: translatex(-240%); 
+            transform: translatex(-100%); 
          }
         
     }
@@ -443,5 +457,14 @@
     .sidebar {
         overflow: scroll;
         
+    }
+    .sec-1{
+        margin-bottom: 50%;
+    }
+    .sec-4 img{
+        max-width: 100%;
+    }
+    .title1{
+        font-size: 2.7rem;
     }
 }
