@@ -414,19 +414,19 @@
 
     @keyframes slide1 {
         0% {
-           transform: translateX(100%); 
+           transform: translateX(105%); 
         }
          100% {
-            transform: translateX(-100%); 
+            transform: translateX(-105%); 
          }
         
     }
     @keyframes slide2 {
         0% {
-           transform: translateX(100%); 
+           transform: translateX(105%); 
         }
          100% {
-            transform: translatex(-100%); 
+            transform: translatex(-105%); 
          }
         
     }
@@ -467,4 +467,9 @@
     .title1{
         font-size: 2.7rem;
     }
+}
+@media screen and (min-width: 601px) and (max-width: 759px) {
+   .sec-4 img{
+      max-width: 100%;
+  }
 }
