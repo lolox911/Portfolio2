@@ -251,7 +251,7 @@
     text-align: center;
     margin-bottom: 2.5%;
 }
-.case1, .case2, .case3, .case4, .case5, .case6, .case7{
+.case1, .case2, .case3, .case4, .case5, .case6, .case7, .case8, .case9{
     position: relative;
     text-align: center;
 }
@@ -281,27 +281,29 @@
 }
 /* --------------------------------- DESKTOP VERSION ------------------------------- */
 @media screen and (min-width: 760px) {
+    
     .project{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: minmax(100px, 25%);
+        grid-template-columns: repeat(8, 1fr);
+        /* grid-auto-rows: minmax(100px, 25%); */
         width: 95%;
         margin: 0 auto;
         gap: 10px;
         grid-template-areas: 
-        "blocus blocus samegame samegame"
-        "blocus blocus samegame samegame"
-        "tictactoe tictactoe netflix netflix"
-        "tictactoe tictactoe netflix netflix"
-        "portfolio games agendatlas agendatlas"
-        "portfolio games agendatlas agendatlas"
+        "blocus blocus samegame samegame portfolio portfolio agendatlas agendatlas"
+        "blocus blocus samegame samegame portfolio portfolio agendatlas agendatlas"
+        "tictactoe tictactoe netflix netflix portfolio portfolio test1 test1"
+        "tictactoe tictactoe netflix netflix portfolio portfolio test1 test1"
+        "other other other other other other test2 test2"
+        "other other other other other other test2 test2"
         ;
     }
     .samegame{
         grid-area: samegame;
     }
-    .games{
-        grid-area: games;
+    .other{
+        grid-area: other;
+        background-color: azure;
     }
     .blocus{
         grid-area: blocus;
@@ -318,9 +320,20 @@
     .agendatlas{
         grid-area: agendatlas;
     }
+    .test1{
+        grid-area: test1;
+        background-color: red;
+    }
+    .test2{
+        grid-area: test2;
+        background-color: red;
+    }
     .project img{
         width: 100%;
         height: 100%;
+    }
+    .ggg{
+        height: 20vw!important;
     }
 }
 /* --------------------------------- PHONE VERSION --------------------------------- */
