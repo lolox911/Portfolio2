@@ -321,11 +321,11 @@
     }
     .test1{
         grid-area: test1;
-        background-color: red;
+        background-color:#151330;
     }
     .test2{
         grid-area: test2;
-        background-color: red;
+        background-color: #151330;
     }
     .project img{
         width: 100%;
