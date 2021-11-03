@@ -1,0 +1,450 @@
+.sec-2{
+    margin-left: 75px;
+}
+.about-con{
+    background-color: #221F4C;
+    width: 95%;
+    margin: 0 2.5%;
+}
+.box-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pdp{
+    width: 225px;
+    height: 225px;
+    margin: 2% 5% 2% 8%;
+}
+.text-about h1{
+    margin-top: 1%;
+}
+.text-about h3{
+    margin-top: 1%;
+}
+.text-about p{
+    text-align: justify;
+    margin: 2% auto;
+    width: 80%;
+}
+.about-con2{
+    width: 95%;
+    margin: 2.5% 2.5%;
+}
+.box-about2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.hobbie{
+    background-color: #221F4C;
+    width: 40%;
+    text-align: center;
+}
+.education{
+    background-color: #221F4C;
+    width: 57.5%;
+    text-align: center;
+}
+
+.box-about2 h1{
+    padding: 2.5% 0;
+    background-color: #191738;
+}
+.education h1{
+    padding: 2% 0;
+}
+
+.hobbie, .education{
+    padding-bottom: 2.5%;
+}
+
+.box-about2 ul{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+.box-about2 li{
+    margin-top: 2.5%;
+}
+.box-about2 hr{
+    width: 90%;
+    margin: 2.5% auto;
+}
+.box-about2 span{
+    color: rgb(179, 179, 179);
+}
+.frst-title{
+    margin-top: 2.5%;
+}
+.job{
+    margin-top: 2.5%;
+}
+.june{
+    margin-top: 2.5%; 
+}
+.hob{
+    margin-top: 2.5%;
+}
+/* -------------------- SECTION 3 ------------------- */
+.sec-3{
+    margin-top: 20%;
+    margin-left: 75px;
+}
+.skills{
+    width: 95%;
+    margin: 0 2.5%;
+    background-color: #221F4C;
+}
+.sec-3 h1{
+    width: 95%;
+    padding: 2.5% 0;
+    margin: 0 auto 2.5% auto;
+    background-color: #191738;
+    text-align: center;
+}
+.c, .cs , .java, .html, .css, .js, .sql, .php, .codei, .spine {
+    display: flex;
+    position: relative;
+}
+/* ----- ICONES ------ */
+.ico{
+    width: 50px;
+    height: 50px;
+    margin-right: 2%;
+}
+/*-------- */
+.prog, .web, .frame, .data, .anim{
+    width: 50%;
+    padding: 0 2%;
+}
+.box1, .box2, .box3{
+    display: flex;
+    flex-direction: row;
+}
+.skills h2{
+    padding: 2% 0;
+    margin-bottom: 2.5%;
+}
+.skills p{
+    font-size: 1.1rem;
+}
+.comp{
+    margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: row;
+}
+/* pour les test placements */
+/*.box1{
+    background-color: lightgreen;
+}
+.box2{
+    background-color: rgb(170, 71, 149);
+}
+.box3{
+    background-color: rgb(151, 128, 26);
+}
+.prog, .web, .frame, .data, .anim{
+    background-color: crimson;
+    border: solid 1px black;
+}*/
+.titreskill{
+    margin: auto 0;
+    width: 10%;
+}
+.bar{
+    width: 80%;
+    height: 10px;
+    background-color: #191738;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.bar1.c{
+    height: 10px;
+    width: 60%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    /*transform: scaleX(0);
+    transform-origin: left;
+    animation: bar 1s cubic-bezier(1,0,0.5,1) forwards;*/
+}
+.bar1.cs{
+    height: 10px;
+    width: 40%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.java{
+    height: 10px;
+    width: 60%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.html{
+    height: 10px;
+    width: 90%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.css{
+    height: 10px;
+    width: 75%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.js{
+    height: 10px;
+    width: 50%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.php{
+    height: 10px;
+    width: 50%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.ci{
+    height: 10px;
+    width: 80%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.sql{
+    height: 10px;
+    width: 60%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.bar1.spine{
+    height: 10px;
+    width: 5%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.head-bar1{
+    position: relative;
+    width: 30%;
+    display: flex;
+}
+.head-bar2{
+    position: relative;
+    width: 70%;
+}
+.box3{
+    padding-bottom: 5%;
+}
+.box1, .box2{
+    padding-top: 2.5%;
+}
+.sec-4{
+    margin-top: 20%;
+    margin-left: 75px;
+}
+.sec-4 h1{
+    width: 95%;
+    margin: 0 auto;
+    padding: 2.5% 0;
+    background-color: #191738;
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+.case1, .case2, .case3, .case4, .case5, .case6, .case7{
+    position: relative;
+    text-align: center;
+}
+/*.languages-project{
+    position: absolute;
+    top: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+}*/
+.languages-project{
+    margin: 2.5% 0;
+}
+.text-project{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s all;
+}
+.text-project:hover{
+    opacity: 1;
+}
+.project .title{
+    margin-bottom: 20%;
+}
+/* --------------------------------- DESKTOP VERSION ------------------------------- */
+@media screen and (min-width: 760px) {
+    .project{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(100px, 25%);
+        width: 95%;
+        margin: 0 auto;
+        gap: 10px;
+        grid-template-areas: 
+        "blocus blocus samegame samegame"
+        "blocus blocus samegame samegame"
+        "tictactoe tictactoe netflix netflix"
+        "tictactoe tictactoe netflix netflix"
+        "portfolio games agendatlas agendatlas"
+        "portfolio games agendatlas agendatlas"
+        ;
+    }
+    .samegame{
+        grid-area: samegame;
+    }
+    .games{
+        grid-area: games;
+    }
+    .blocus{
+        grid-area: blocus;
+    }
+    .tictactoe{
+        grid-area: tictactoe;
+    }
+    .portfolio{
+        grid-area: portfolio;
+    }
+    .netflix{
+        grid-area: netflix;
+    }
+    .agendatlas{
+        grid-area: agendatlas;
+    }
+    .project img{
+        width: 100%;
+        height: 100%;
+    }
+}
+/* --------------------------------- PHONE VERSION --------------------------------- */
+@media screen and (max-width: 1100px){
+    .box1, .box2, .box3{
+        flex-direction: column;
+    }
+    .prog, .web, .frame, .data, .anim{
+        width: 100%;
+        padding: 0 2.5%;
+    }
+
+    .ico{
+        width: 35px;
+        height: 35px;
+    }
+    .bar{
+        position: absolute;
+        margin: 10px;
+        right: 2.5%;
+    }
+    .percent{
+        width: 15%;
+        margin: auto;
+        text-align: center;
+    }
+    .comp{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .head-bar1{
+        margin: auto;
+    }
+    .head-bar2{
+        margin: auto;
+    }
+    .titreskill{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .box-about{
+        flex-direction: column;
+    }
+    .pdp{
+        width: 225px;
+        height: 225px;
+        margin: 2% 5%;
+    }
+    .text-about h1{
+        margin-top: 3%;
+    }
+    .text-about h3{
+        margin-top: 2%;
+    }
+    .text-about p{
+        text-align: justify;
+        margin: 5% auto;
+        width: 80%;
+    }
+
+    .box-about2{
+        flex-direction: column; 
+    }
+    .hobbie{
+        width: 100%;
+        text-align: center;
+    }
+    .education{
+        margin-top: 2.5%;
+        width: 100%;
+    }
+    .education h3, .education p{
+        margin: 2.5% auto;
+        width: 80%;
+        text-align: left;
+    }
+
+    /* ------ SECTION 4 -------- */
+
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 2.5%;
+    }
+    .project img{
+        width: 100%;
+        height: 100%;
+    }
+    .case1, .case3, .case4, .case5, .case6, .case7{
+        width: 100%;
+        height: 220px;
+        margin: 2.5% 0;
+    }
+    .case2, .case6 {
+        width: 100%;
+        height: 400px;
+        margin: 2.5% 0;
+    }
+    .text-project{
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* -------------------------------------- TABLET VERSION ------------------------------- */
+
+@media screen and (max-width: 900px) {
+    .pdp{
+        width: 225px;
+        height: 225px;
+        margin: 2% 5%;
+    }
+    .text-about h1{
+        margin-top: 5%;
+    }
+    .text-about h3{
+        margin-top: 3%;
+    }
+    .text-about p{
+        text-align: justify;
+        margin: 5% auto;
+        width: 80%;
+    }  
+}

@@ -1,0 +1,93 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 35%;
+    padding: 35px 0 75px 0;
+    /*margin-top: 5%;*/
+    margin-left: 35%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+form h1 {
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input[type="text"]{
+    font-size: 16px;
+    margin-bottom: 2%;
+} 
+
+input{
+    width: 75%;
+    background-color: #333;
+    border: none;
+    padding: 15px;
+    outline: none;
+    color: white;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    background-color: #1167ad;
+    transition: background-color 0.3s;
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    background-color: #0e4a7c;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: #05591a;
+    cursor: pointer;
+}
+input[type="button"]{
+    background-color: #0b7a2c;
+    transition: background-color 0.3s;
+}
+
+textarea{
+    width: 75%;
+    resize: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 2%;
+}
+textarea:focus {
+    outline: none;
+}
+
+form a{
+    text-decoration: none;
+}
+
+form a:hover{
+    text-decoration: underline;
+}
+
+form a:link,
+form a:active,
+form a:visited {
+    color: #b3b3b3;
+}
