@@ -15,7 +15,9 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div id="ancre"></div>
+    <div>
+        <img src="images/Comic.png" alt="" class="bgfixbug">
+    </div>
     <div class="background" id="load">
         <h1>Website still in construction...</h1>
         <img class="load1" src="images/Animation.gif" alt="">
@@ -49,19 +51,19 @@
                 </a>
             </li>
             <li>
-                <a href="#Contact">
+                <a href="#">
                     <i class='bx bx-chat'></i>
                     <span class="links_name">Contact</span>
                 </a>
             </li>
             <li>
-                <a href="CV_Loïc_NIRLO.pdf" download>
+                <a href="#">
                     <i class='bx bx-file'></i>
                     <span class="links_name">Cv</span>
                 </a>
             </li>
             <li>
-                <a href="https://github.com/lolox911">
+                <a href="#">
                     <i class='bx bxl-github'></i>
                     <span class="links_name">Github</span>
                 </a>
@@ -349,7 +351,7 @@
                 </div>
             </div>
             <div class="case3 blocus">
-                <img src="projects-images/blocus.png" alt="">
+               <img src="projects-images/blocus.png" alt="">
                 <div class="text-project card-blocus">
                     <h2 class="title">Blocus : Capitol Edition</h2>
                     <div class="des">Republican or democrat, beat your opponent strategically...</div>
@@ -385,7 +387,7 @@
                 </div>
             </div>
             <div class="case6 portfolio">
-                <img src="projects-images/portfolio (1).png" alt="">
+                <img src="projects-images/portfolio.png" alt="">
                 <div class="text-project card-portfolio">
                     <h2 class="title">Portfolio</h2>
                     <div class="des">Welcome to my portfolio...</div>
@@ -393,56 +395,37 @@
                     <div class="dev">In progress</div>
                 </div>
             </div>
-            <div class="case2 other">
+            <div class="case2 games">
                 <img src="projects-images/games.png" alt="">
                 <div class="text-project card-games">
-                    <h2 class="title"></h2>
+                    <h2 class="title">Games</h2>
                     <div class="des">Others projects</div>
-                </div>
-            </div>
-            <div class="case8 test1">
-                <div class="text-project card-games">
-                    <h2 class="title">HMI</h2>
-                    <div class="des">Human Machine Interface of an hotel booking system</div>
-                    <div class="languages-project card-games">Java</div>
-                    <div class="dev">In progress</div>
-                </div>
-            </div>
-            <div class="case9 test2">
-                <div class="text-project card-games">
-                    <h2 class="title">DUT 2nd year project</h2>
-                    <div class="des">Comming soon...</div>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="sec-5">
-        <h1 id="Contact">Contact me</h1>
-        <div class="form-container">
-            
-            <form method="POST" action="https://formsubmit.co/f2ee172bb5d742e6e4ebd45f794334fb">
 
-                <input type="text" placeholder="Nom" name="nom" maxlength="20" minlength="3" required/>
-                <input type="text" placeholder="Prénom" name="prenom" maxlength="20" minlength="3" required/>
-                <input type="text" placeholder="Mail" name="email" id="" maxlength="50" minlength="3" required/>
-                <input type="text" placeholder="Objet" name="sujet" id="" maxlength="50" minlength="3" required/>
-                <textarea name="message" id="" cols="5" rows="8" placeholder="Message" maxlength="200" minlength="5" required></textarea>
+        <div class="form-container">
+            <h1>Contact me</h1>
+            <form method="post" action="https://formsubmit.co/loicnirlo46@gmail.com">
+
+                <input type="text" placeholder="Nom" name="nom" maxlength="20" minlength="3"/>
+                <!-- <input type="text" placeholder="Prénom" name="prenom" maxlength="20" minlength="3"/> -->
+                <input type="text" placeholder="Mail" name="email" id="" maxlength="20" minlength="3"/>
+                <input type="text" placeholder="Objet" name="sujet" id="" maxlength="20" minlength="3"/>
+                <textarea name="message" id="" cols="5" rows="8" placeholder="Message" maxlength="88" minlength="5"></textarea>
 
                 <input type="submit" value="Send" name="submit"/>
 
-                <input type="hidden" name="_next" value="https://lolox911.github.io/Portfolio/#ancre">
+                
             </form>
             
         </div>
 
     </section>
 
-    <footer>
-
-    </footer>
-
     <script src="script.js"></script>
-    <!-- test -->
 </body>
 </html>

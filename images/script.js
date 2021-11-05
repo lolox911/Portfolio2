@@ -12,7 +12,6 @@ window.onload = init;
 
 function init(){
     document.getElementById("load").scrollIntoView();
-    document.getElementById("ancre").scrollIntoView();
     setTimeout(removeLoad, 3000);
 }
 
