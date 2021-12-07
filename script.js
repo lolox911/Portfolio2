@@ -18,6 +18,7 @@ function init(){
 
 function removeLoad(){
     document.getElementById("load").style.display = "none";
+    document.getElementById("cache").style.display = "none";
 }
 
 /*const observer = new IntersectionObserver(entries => {
